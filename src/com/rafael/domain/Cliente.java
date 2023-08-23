@@ -6,13 +6,13 @@ public class Cliente {
 	private String email;
 	private String telefone;
 	private String endereco;
-	private Long cpf;
+	private String cpf;
 	
 	public Cliente() {
 		
 	}
 
-	public Cliente(String nome, String email, String telefone, String endereco, Long cpf) {
+	public Cliente(String nome, String email, String telefone, String endereco, String cpf) {
 		super();
 		this.nome = nome;
 		this.email = email;
@@ -53,11 +53,11 @@ public class Cliente {
 		this.endereco = endereco;
 	}
 
-	public Long getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
 
-	public void setCpf(Long cpf) {
+	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
 
