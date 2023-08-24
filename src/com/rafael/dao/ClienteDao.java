@@ -5,13 +5,19 @@ import com.rafael.domain.Cliente;
 public class ClienteDao implements IClienteDao {
 
 	@Override
-	public void salvar(Cliente cliente) {
-		// TODO Auto-generated method stub
+	public Boolean salvar(Cliente cliente) {
+		return true;
 		
 	}
 
 	@Override
 	public Cliente buscarPorCpf(String cpf) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Boolean excluir(String cpf) {
 		// TODO Auto-generated method stub
 		return null;
 	}
